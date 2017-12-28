@@ -240,7 +240,7 @@ small {
     -o-transition: all 0.3s ease-out;
     transition: all 0.3s ease-out;
   }
-  
+
 /*menu new styles*/
   .nav-item a {
     display: block;
@@ -289,6 +289,9 @@ small {
   .material{
     width: 90px;
     padding-left: 0px;
+  }
+  .col-12.cat-search{
+    max-width: 270px;
   }
 
   a.title{
