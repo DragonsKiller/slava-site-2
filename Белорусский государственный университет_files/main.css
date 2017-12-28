@@ -283,10 +283,11 @@ small {
     margin-right: 0px !important;
   }
 }
+
 @media (max-width: 420px){
   .material{
     width: 70px;
-    padding-left: 0px;
+    padding-left: 5px;
   }
 
   .col-12.cat-search{
