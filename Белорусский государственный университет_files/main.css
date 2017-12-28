@@ -183,6 +183,13 @@ small {
     padding-left: 5px;
   }
 
+  .material label{
+    white-space: pre-line;
+    line-height:13px;
+    font-size: 9pt !important;
+    padding-left: 0 !important;
+  }
+
   .col-12.cat-search{
     max-width: 250px;
   }
@@ -288,6 +295,13 @@ small {
   .material{
     width: 70px;
     padding-left: 5px;
+  }
+
+  .material label{
+    white-space: pre-line;
+    line-height:10px;
+    font-size: 6pt !important;
+    padding-left: 0 !important;
   }
 
   .col-12.cat-search{
