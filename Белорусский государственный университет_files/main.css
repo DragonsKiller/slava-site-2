@@ -256,29 +256,12 @@ small {
   }
 
   /* Hover state */
-  .nav-item:hover a{
+  .nav-item .nav-link.active{
     color: white !important;
+    padding: 0;
   }
-  .nav-item:hover{
+  .nav-item .nav-link.active{
     background-color: #0069D9;
-  }
-
-  /* Active state */
-  .wrapper-dropdown-5.active {
-    border-radius: 5px 5px 0 0;
-    background: #4cbeff;
-    box-shadow: none;
-    border-bottom: none;
-    color: white;
-  }
-
-  .wrapper-dropdown-5.active:after {
-    border-color: #82d1ff transparent;
-  }
-
-  .wrapper-dropdown-5.active .dropdown {
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-    max-height: 400px;
   }
 
   .navbar .language .btn{
