@@ -183,6 +183,10 @@ small {
     padding-left: 5px;
   }
 
+  .col-12.cat-search{
+    max-width: 250px;
+  }
+
   .col-12{
     padding-right: 0px !important;
   }
@@ -227,7 +231,7 @@ small {
   .nav-item{
     margin-right: 20px;
     width: 100px;
-    padding: 0 10px ;
+    padding: 0 0px ;
     background: #fff;
     border-radius: 0 0 5px 5px;
     border: 1px solid rgba(0,0,0,0.2);
@@ -255,11 +259,22 @@ small {
     border: none;
   }
 
-  /* Hover state */
+/* Hover state */
+  .nav-item:hover a{
+    color: white !important;
+  }
+
+  .nav-item:hover{
+    background-color: #007BFF;
+  }
+
+/* Active state */
   .nav-item .nav-link.active{
     color: white !important;
-    padding: 0;
+    padding-left: 0;
+    padding-right: 0;
   }
+
   .nav-item .nav-link.active{
     background-color: #0069D9;
   }
@@ -270,15 +285,55 @@ small {
 }
 @media (max-width: 420px){
   .material{
-    width: 90px;
+    width: 70px;
     padding-left: 0px;
   }
+
   .col-12.cat-search{
-    max-width: 270px;
+    padding-left: 0;
+  }
+  #showKeyWordSearch{
+    padding-left: 5px;
+  }
+
+  .col-12.resumes{
+    padding-left: 5px;
+  }
+
+  #mainFilter{
+    max-width: 70px;
+  }
+
+  .col-3{
+    max-width: 75px !important;
+  }
+
+  .filter__row{
+    max-width: 250px;
+  }
+
+  .card-deck{
+    max-width: 250px;
+  }
+
+  .col-12.resumes{
+    max-width: 250px;
+  }
+
+  .col .row{
+    max-width: 250px;
+  }
+
+  .col{
+    max-width: 250px;
   }
 
   a.title{
-    font-size: 8pt !important;
+    font-size: 7pt !important;
+  }
+
+  footer a{
+    font-size: 10pt !important;
   }
 }
 /*end*/
