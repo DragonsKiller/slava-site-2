@@ -139,6 +139,11 @@ small {
     padding: 0px;
   }
 
+  .nav-item{
+    padding-bottom: 5px;
+  }
+
+
   .row nav {
     padding-left: 0px;
     padding-right: 0px;
@@ -216,79 +221,6 @@ small {
   a.title{
     font-size: 9pt !important;
   }
-
-  footer.container-fluid{
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-
-  footer.container-fluid .container{
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
-  .nav-link.menu-item{
-    margin: 0px;
-  }
-
-  .nav-link.menu-item:first-child{
-    padding-left: 0px;
-  }
-
-  .nav-item{
-    margin-right: 20px;
-    width: 100px;
-    padding: 0 0px ;
-    background: #fff;
-    border-radius: 0 0 5px 5px;
-    border: 1px solid rgba(0,0,0,0.2);
-    border-top: none;
-    border-bottom: none;
-    list-style: none;
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -ms-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-  }
-
-/*menu new styles*/
-  .nav-item a {
-    display: block;
-    text-decoration: none;
-    color: #333;
-    padding: 10px 0;
-    transition: all 0.3s ease-out;
-    border-bottom: 1px solid #e6e8ea;
-  }
-
-  .nav-item:last-of-type a {
-    border: none;
-  }
-
-/* Hover state */
-  .nav-item:hover a{
-    color: white !important;
-  }
-
-  .nav-item:hover{
-    background-color: #007BFF;
-  }
-
-/* Active state */
-  .nav-item .nav-link.active{
-    color: white !important;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .nav-item .nav-link.active{
-    background-color: #0069D9;
-  }
-
-  .navbar .language .btn{
-    margin-right: 0px !important;
-  }
 }
 
 @media (max-width: 420px){
@@ -345,10 +277,6 @@ small {
 
   a.title{
     font-size: 7pt !important;
-  }
-
-  footer a{
-    font-size: 10pt !important;
   }
 }
 /*end*/
